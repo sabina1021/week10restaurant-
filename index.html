@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turkish Restaurant</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .welcome {
+            background-color: #d2b48c; /* Light brown */
+            color: black;
+            padding: 50px;
+        }
+        #about {
+            background-color: #8b4513; /* Medium brown */
+            color: #d2b48c; /* Light brown */
+            padding: 50px;
+        }
+        #menu {
+            background-image: url('asset/Food\ Photography\ —\ Kara\ Blake\ Chin\ _\ Food\ Photography\ &\ Graphic\ Design.jpeg');
+            padding: 50px;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .menu-category {
+            margin: 20px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 300px;
+            background-color: #d2b48c; /* Light brown */
+            color: black;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item {
+            margin-bottom: 10px;
+        }
+        .menu-item h4 {
+            margin: 5px 0;
+        }
+        .menu-item p {
+            margin: 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            bottom: 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#welcome">Home</a>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="welcome" class="welcome">
+    <h1>Welcome to Turkish Restaurant</h1>
+    <p>Authentic Turkish Mediterranian restaurant takes pride in ofeering authentic dishes and specialty cocktails.</p>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Our commintment lies in providing quality service, excellent value, and ensuring complete customer satisfaction. Whether you're planning an intimate dinner for two or hosting a large celebration, Turkish Restaurant is the perfect venue for events of all sizes.</p>
+</section>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu">
+        <div class="menu-category">
+            <h3>Breakfast</h3>
+            <div class="menu-item">
+                <h4>Blueberry Pancakes - $14</h4>
+                <p>Served with a scoop of ice cream, fresh fruit & syrup, decorated with powdered sugar.</p>
+            </div>
+            <div class="menu-item">
+                <h4>Oatmeal - $10</h4>
+                <p>With milk, dried fruits, walnuts</p>
+            </div>
+            <div class="menu-item">
+                <h4>Crepes - $15.95</h4>
+                <p>Filled with banana, strawberry and Nutella, decorated with powdered sugar and chocolate syrup.</p>
+            </div>
+        </div>
+        <div class="menu-category">
+            <h3>Lunch</h3>
+            <div class="menu-item">
+                <h4>Mixed Green Salad - $15.95</h4>
+                <p>Mixed greens, cherry tomatoes, cucumbers and onions tossed with balsamic dressing.</p>
+            </div>
+            <div class="menu-item">
+                <h4>Beef Shish - $31.95</h4>
+                <p>Grilled marinated beef served with house salad and rice.</p>
+            </div>
+            <div class="menu-item">
+                <h4>Chicken Vegetable Soup - $8.50</h4>
+            </div>
+        </div>
+        <div class="menu-category">
+            <h3>Dinner</h3>
+            <div class="menu-item">
+                <h4>Grilled Branzini - $31.95</h4>
+                <p>Served with house salad. Whole or fillet options.</p>
+            </div>
+            <div class="menu-item">
+                <h4>Chicken Alfredo - $24.50</h4>
+                <p>Linguini pasta in a classic creamy Alfredo sauce.</p>
+            </div>
+            <div class="menu-item">
+                <h4>Chicken Caesar Salad - $18.95</h4>
+                <p>Lettuce, Parmesan cheese tossed with Caesar dressing.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: turkish@restaurant.com</p>
+    <p>Address: 551 Sea View Ave, Brooklyn</p>
+</section>
+
+<footer>
+    <p>Turkish Restaurant</p>
+</footer>
+
+</body>
+</html>
